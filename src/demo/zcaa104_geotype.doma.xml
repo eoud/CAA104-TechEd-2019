@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZCAA104_GEOTYPE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000020</LENG>
+    <OUTPUTLEN>000020</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Teched 2019: Geo type</DDTEXT>
+    <DOMMASTER>E</DOMMASTER>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZCAA104_GEOTYPE</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>POINT</DOMVALUE_L>
+     <DDTEXT>Point 2 dimensions</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCAA104_GEOTYPE</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>POINT Z</DOMVALUE_L>
+     <DDTEXT>Point 3 dimensions</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCAA104_GEOTYPE</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>POINT M</DOMVALUE_L>
+     <DDTEXT>Point 2 dimensions with unit</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCAA104_GEOTYPE</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>POINT ZM</DOMVALUE_L>
+     <DDTEXT>Point 3 dimensions with unit</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCAA104_GEOTYPE</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>POLYGON</DOMVALUE_L>
+     <DDTEXT>Polygon</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCAA104_GEOTYPE</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>LINE</DOMVALUE_L>
+     <DDTEXT>Line</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
